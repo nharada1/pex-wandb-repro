@@ -1,0 +1,4 @@
+*.swp
+
+.pants.d/
+.pids/

@@ -1,0 +1,5 @@
+torch==1.12.1
+pytorch-lightning
+setuptools
+torchvision
+wandb

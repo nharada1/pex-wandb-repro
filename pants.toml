@@ -1,0 +1,15 @@
+[GLOBAL]
+pants_version = "2.14.0"
+
+backend_packages = [
+  "pants.backend.python"
+]
+
+[python]
+enable_resolves = true
+
+[python.resolves]
+python-default = "third_party/lockfile_path.txt" 
+
+[source]
+root_patterns = ['/src']
